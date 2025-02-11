@@ -13,7 +13,7 @@
             padding: 0;
         }
         header {
-            background-color: #006400;
+            background-color: #006400; /* Dark Green */
             color: white;
             padding: 20px;
             text-align: center;
@@ -27,13 +27,25 @@
             max-width: 100%;
         }
         footer {
-            background-color: #006400;
+            background-color: #006400; /* Dark Green */
             color: white;
             text-align: center;
             padding: 10px;
             position: fixed;
             width: 100%;
             bottom: 0;
+        }
+        h2 {
+            color: #FFA500; /* Orange */
+        }
+        p {
+            color: #333; /* Dark Gray */
+        }
+        .container {
+            background-color: white; /* White background for container */
+            border: 1px solid #FFA500; /* Orange border */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
